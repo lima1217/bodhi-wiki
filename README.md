@@ -1,16 +1,28 @@
+---
+type: AgentGuide
+title: Bodhi Wiki
+description: 仓库说明：如何把这个 OKF LLM Wiki 喂给 AI agent 作为背景知识。
+source_refs: [source-001, source-002, source-003, source-004]
+chapter_refs: []
+tags: [readme, repo]
+status: active
+timestamp: 2026-07-13T00:00:00Z
+---
+
 # Bodhi Wiki
 
 Bodhi 项目的自包含中文知识包。把仓库链接丢给 AI agent，让它读完作为背景，然后直接提问。每个结论都能追溯到固定来源的行号，agent 引用时不会凭印象发挥。
 
 ## 这是什么
 
-把 Bodhi（[bodhi.wtf](https://bodhi.wtf)）的官方文档、城市代币材料和创始人叙事，摄取成一个可溯源的 OKF LLM Wiki。人类能浏览，任何 agent 都能当作 context 使用。
+把 Bodhi（[bodhi.wtf](https://bodhi.wtf)）的官方文档、城市代币材料、创始人叙事与机制问答，摄取成一个可溯源的 OKF LLM Wiki。人类能浏览，任何 agent 都能当作 context 使用。
 
-三份固定来源：
+四份固定来源：
 
 - **source-001 Bodhi Docs**：协议概览、代币生命周期、行动与给币、小发明、FAQ
 - **source-002 一座没有市长的城市**：城市代币、政治性组织、给钱与给币
 - **source-003 Bodhi Thesis**：创始人叙事、价值取向、产品方法论
+- **source-004 创建者回答用户提问**：机制演进史（v0 金库投票 → v1 任务/悬赏 → v2 Post+给币）、两种盒子、为什么不内建验证
 
 ## 怎么用（重点）
 

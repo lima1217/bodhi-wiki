@@ -1,0 +1,41 @@
+{
+  "source_file": "/Users/lima/Desktop/bodhi创建者回答用户提问-20260713.md",
+  "filename": "bodhi创建者回答用户提问-20260713.md",
+  "format": "md",
+  "extraction_method": "plain-text",
+  "extraction_mode": "text",
+  "file_size_mb": 0.004,
+  "pages": 0,
+  "chars": 2316,
+  "words": 65,
+  "estimated_tokens": 309,
+  "estimated_tokens_human": "~0K",
+  "output_text": "/Users/lima/Desktop/project/bodhi/bodhi-okf-wiki/sources/full_text-20260713-2.txt",
+  "total_sources": 1,
+  "written_into_package": true,
+  "full_text_file": "full_text-20260713-2.txt",
+  "full_text_md5": "34a509f57b6402de965618e810c6bf1c",
+  "full_text_lines": 61,
+  "sources": [
+    {
+      "source_file": "/Users/lima/Desktop/bodhi创建者回答用户提问-20260713.md",
+      "filename": "bodhi创建者回答用户提问-20260713.md",
+      "format": "md",
+      "extraction_method": "plain-text",
+      "extraction_mode": "text",
+      "file_size_mb": 0.004,
+      "pages": 0,
+      "pages_label": "sections",
+      "chars": 2094,
+      "words": 59,
+      "estimated_tokens": 279,
+      "chapters_detected": 0,
+      "has_toc": false,
+      "chapter_map": []
+    }
+  ],
+  "chapters_detected": 0,
+  "chapter_headings_sample": [],
+  "has_toc": false,
+  "chapter_map": []
+}

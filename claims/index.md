@@ -14,3 +14,5 @@
 - [v1简陋是设计不是缺陷](v1简陋是设计不是缺陷.md)（source-003）
 - [v2是叙事平台不是内容平台](v2是叙事平台不是内容平台.md)（source-003）
 - [bodhi最自然的窄切入是自身建设](bodhi最自然的窄切入是自身建设.md)（source-003）
+- [Virtual Foundation是v0机制](Virtual%20Foundation是v0机制.md)（source-004）
+- [悬赏任务是未实现的规划](悬赏任务是未实现的规划.md)（source-004）

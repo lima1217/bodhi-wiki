@@ -4,10 +4,10 @@ Bodhi v2 是一个把“想法发行成代币，并让代币通过行动和给�
 
 ## 来源与范围
 
-- 来源：[Bodhi Docs](https://bodhi.wtf/docs)，本地来源说明见 [sources/来源-001.md](sources/来源-001.md)；补充材料“一座没有市长的城市”见 [sources/来源-002.md](sources/来源-002.md)；创始人项目级叙事“Bodhi Thesis”见 [sources/来源-003.md](sources/来源-003.md)。
-- 固定文本：`sources/full_text-20260630.txt`，共 140 行，md5 `dad18ee51aff05143e36c288548893ef`；`sources/full_text-20260630-2.txt`，共 25 行，md5 `c38a2511171ec1a2f06ee7e3f8ac69b8`；`sources/full_text-20260713.txt`，共 106 行，md5 `aac8935b8edf37a5f617a9986e54919f`。
-- 范围：概览、代币生命周期、行动和给币、小发明、FAQ、城市代币与“没有市长的城市”、创始人叙事与产品方法论（source-003）。
-- 不包含：合约源码逐行审计、链上实时状态、外部数据验证、source-003 中个人回忆的事实核验。
+- 来源：[Bodhi Docs](https://bodhi.wtf/docs)，本地来源说明见 [sources/来源-001.md](sources/来源-001.md)；补充材料“一座没有市长的城市”见 [sources/来源-002.md](sources/来源-002.md)；创始人项目级叙事“Bodhi Thesis”见 [sources/来源-003.md](sources/来源-003.md)；创建者回答用户提问见 [sources/来源-004.md](sources/来源-004.md)。
+- 固定文本：`sources/full_text-20260630.txt`，共 140 行，md5 `dad18ee51aff05143e36c288548893ef`；`sources/full_text-20260630-2.txt`，共 25 行，md5 `c38a2511171ec1a2f06ee7e3f8ac69b8`；`sources/full_text-20260713.txt`，共 106 行，md5 `aac8935b8edf37a5f617a9986e54919f`；`sources/full_text-20260713-2.txt`，共 61 行，md5 `34a509f57b6402de965618e810c6bf1c`。
+- 范围：概览、代币生命周期、行动和给币、小发明、FAQ、城市代币与“没有市长的城市”、创始人叙事与产品方法论（source-003）、机制演进史与设计动机（source-004）。
+- 不包含：合约源码逐行审计、链上实时状态、外部数据验证、source-003 / source-004 中个人回忆与状态判断的事实核验。
 
 ## 人类阅读路径
 
@@ -40,6 +40,8 @@ Bodhi v2 是一个把“想法发行成代币，并让代币通过行动和给�
 - [无市长城市](concepts/无市长城市.md)
 - [给钱与给币的激励差异](concepts/给钱与给币的激励差异.md)
 - [群体基础与时机](concepts/群体基础与时机.md)
+- [两种盒子模型](concepts/两种盒子模型.md)（source-004）
+- [市场驱动可信度](concepts/市场驱动可信度.md)（source-004）
 - [反预判策略](concepts/反预判策略.md)（source-003）
 - [正方形哲学](concepts/正方形哲学.md)（source-003）
 - [体验优于逻辑](concepts/体验优于逻辑.md)（source-003）
