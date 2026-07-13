@@ -1,0 +1,40 @@
+{
+  "source_file": "/Users/lima/Desktop/luyao回答用户提问.md",
+  "filename": "luyao回答用户提问.md",
+  "format": "md",
+  "extraction_method": "plain-text",
+  "extraction_mode": "text",
+  "file_size_mb": 0.0,
+  "pages": 0,
+  "chars": 1201,
+  "words": 57,
+  "estimated_tokens": 76,
+  "estimated_tokens_human": "~0K",
+  "output_text": "sources/full_text-20260713-3.txt",
+  "total_sources": 1,
+  "written_into_package": true,
+  "full_text_file": "full_text-20260713-3.txt",
+  "full_text_md5": "55101c8976366e02452a2f4adcc617d3",
+  "full_text_lines": 41,
+  "sources": [
+    {
+      "source_file": "/Users/lima/Desktop/luyao回答用户提问.md",
+      "filename": "luyao回答用户提问.md",
+      "format": "md",
+      "extraction_method": "plain-text",
+      "file_size_mb": 0.0,
+      "pages": 0,
+      "pages_label": "sections",
+      "chars": 972,
+      "words": 51,
+      "estimated_tokens": 68,
+      "chapters_detected": 0,
+      "has_toc": false,
+      "chapter_map": []
+    }
+  ],
+  "chapters_detected": 0,
+  "chapter_headings_sample": [],
+  "has_toc": false,
+  "chapter_map": []
+}

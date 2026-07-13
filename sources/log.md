@@ -2,6 +2,8 @@
 
 ## 2026-07-13
 
+- 摄取 `luyao回答用户提问.md` 为 `source-005`，固定文本 `full_text-20260713-3.txt`（41 行，md5 `55101c8976366e02452a2f4adcc617d3`），新增 `metadata-005.json` 与 `来源-005.md`。议题：发项目是否等于发币、创建者与代币解绑、责任形态历史类比。与 `source-004` 同属创始人 Q&A，但主题不同。
+- 注意：extractor `--pkg` 仍会覆盖根 `metadata.json` 与移动别名 `full_text.txt`，本次先备份再恢复为 `source-001` 状态（`full_text.txt` md5 = `dad18ee51aff05143e36c288548893ef`），并用 `-3` 后缀避开已占用的 `full_text-20260713.txt` / `-2.txt`。
 - 摄取 `bodhi创建者回答用户提问-20260713.md` 为 `source-004`，固定文本 `full_text-20260713-2.txt`（61 行，md5 `34a509f57b6402de965618e810c6bf1c`），新增 `metadata-004.json` 与 `来源-004.md`。
 - 注意：extractor `--pkg` 仍会覆盖根 `metadata.json` 与移动别名 `full_text.txt`，本次先备份再恢复为 `source-001` 状态（`full_text.txt` md5 = `dad18ee51aff05143e36c288548893ef`），并用 `-2` 后缀避开已被 `source-003` 占用的 `full_text-20260713.txt`。
 - 摄取 `docs/bodhi-thesis.md` 为 `source-003`，固定文本 `full_text-20260713.txt`（106 行），新增 `metadata-003.json` 与 `来源-003.md`。

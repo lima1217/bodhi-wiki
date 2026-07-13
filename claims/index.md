@@ -16,3 +16,5 @@
 - [bodhi最自然的窄切入是自身建设](bodhi最自然的窄切入是自身建设.md)（source-003）
 - [Virtual Foundation是v0机制](Virtual%20Foundation是v0机制.md)（source-004）
 - [悬赏任务是未实现的规划](悬赏任务是未实现的规划.md)（source-004）
+- [发项目理论上等于发币](发项目理论上等于发币.md)（source-005）
+- [模糊关系是历史进程的一部分](模糊关系是历史进程的一部分.md)（source-005）
