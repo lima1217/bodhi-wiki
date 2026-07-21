@@ -1,0 +1,40 @@
+{
+  "source_file": "luyao关于Cursor多智能体实验的随想.md",
+  "filename": "luyao关于Cursor多智能体实验的随想.md",
+  "format": "md",
+  "extraction_method": "plain-text",
+  "extraction_mode": "text",
+  "file_size_mb": 0.0,
+  "pages": 0,
+  "chars": 772,
+  "words": 58,
+  "estimated_tokens": 88,
+  "estimated_tokens_human": "~0K",
+  "output_text": "sources/full_text-20260721.txt",
+  "total_sources": 1,
+  "written_into_package": true,
+  "full_text_file": "full_text-20260721.txt",
+  "full_text_md5": "38eef2d6bca17ec9bf57a48bc54972f3",
+  "full_text_lines": 23,
+  "sources": [
+    {
+      "source_file": "luyao关于Cursor多智能体实验的随想.md",
+      "filename": "luyao关于Cursor多智能体实验的随想.md",
+      "format": "md",
+      "extraction_method": "plain-text",
+      "file_size_mb": 0.0,
+      "pages": 0,
+      "pages_label": "sections",
+      "chars": 543,
+      "words": 52,
+      "estimated_tokens": 80,
+      "chapters_detected": 0,
+      "has_toc": false,
+      "chapter_map": []
+    }
+  ],
+  "chapters_detected": 0,
+  "chapter_headings_sample": [],
+  "has_toc": false,
+  "chapter_map": []
+}

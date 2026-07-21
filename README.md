@@ -2,7 +2,7 @@
 type: AgentGuide
 title: Bodhi Wiki
 description: 仓库说明：如何把这个 OKF LLM Wiki 喂给 AI agent 作为背景知识。
-source_refs: [source-001, source-002, source-003, source-004]
+source_refs: [source-001, source-002, source-003, source-004, source-005, source-006]
 chapter_refs: []
 tags: [readme, repo]
 status: active
@@ -17,12 +17,14 @@ Bodhi 项目的自包含中文知识包。把仓库链接丢给 AI agent，让�
 
 把 Bodhi（[bodhi.wtf](https://bodhi.wtf)）的官方文档、城市代币材料、创始人叙事与机制问答，摄取成一个可溯源的 OKF LLM Wiki。人类能浏览，任何 agent 都能当作 context 使用。
 
-四份固定来源：
+固定来源：
 
 - **source-001 Bodhi Docs**：协议概览、代币生命周期、行动与给币、小发明、FAQ
 - **source-002 一座没有市长的城市**：城市代币、政治性组织、给钱与给币
 - **source-003 Bodhi Thesis**：创始人叙事、价值取向、产品方法论
 - **source-004 创建者回答用户提问**：机制演进史（v0 金库投票 → v1 任务/悬赏 → v2 Post+给币）、两种盒子、为什么不内建验证
+- **source-005 luyao 回答：发项目是否等于发币**：监管边界、创建者与代币解绑、责任形态历史类比
+- **source-006 luyao 随想：Cursor 多智能体实验**：中心化成本最优分工 ↔ Bodhi 去中心化效率命题
 
 ## 怎么用（重点）
 
@@ -81,4 +83,4 @@ python3 tools/validate_okf_wiki.py --strict .
 
 仓库数据定期更新，会随 Bodhi 文档和叙事的演进而补充来源与概念。如果 agent 缓存了旧版本，让它重新拉取最新内容再提问。
 
-本包不包含：合约源码逐行审计、链上实时状态、外部数据验证。`source-003` 中关于 v1 内容数量、pump.fun 时间线、wishpool 事件、VC 联络等属创始人回忆，引用时应标注“待核实”，不应作为已验证事实。
+本包不包含：合约源码逐行审计、链上实时状态、外部数据验证。`source-003` 中关于 v1 内容数量、pump.fun 时间线、wishpool 事件、VC 联络等属创始人回忆，引用时应标注“待核实”，不应作为已验证事实。`source-006` 中 Cursor 实验数据引自外部文章、未独立核验，去中心化效率命题目前只有直觉、没有证据。

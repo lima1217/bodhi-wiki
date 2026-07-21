@@ -1,5 +1,12 @@
 # 更新日志
 
+## 2026-07-21
+
+- 摄取创始人手写片段为 `source-006`（固定文本 `full_text-20260721.txt`，23 行，md5 `38eef2d6bca17ec9bf57a48bc54972f3`）。议题：借 Cursor 多智能体实验（昂贵领导者+便宜执行者的成本最优分工）点出 Bodhi 总命题——crypto 能否不依赖中心化达到类似甚至更高效。
+- 新增 2 个概念（领导者与执行者分工、去中心化效率命题）、1 个框架（协作结构张力框架）、2 个主张（中心化领导是历史验证的成本最优协作、Bodhi探索去中心化能否达到类似效率）。
+- glossary 增 3 条术语（领导者与执行者分工、去中心化效率命题、Cursor 多智能体实验）；questions 新增“协作结构与去中心化效率”组；AGENTS.md、index.md 与各目录 index/log 同步指向 source-006。
+- 注意：本次固定文本与 metadata 手写（未运行 extractor），未触碰根 `metadata.json` 与 `full_text.txt`，二者仍为 source-001 状态。
+
 ## 2026-07-13
 
 - 摄取 `luyao回答用户提问.md` 为 `source-005`（固定文本 `full_text-20260713-3.txt`，41 行）。
