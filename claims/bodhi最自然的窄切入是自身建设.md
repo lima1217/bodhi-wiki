@@ -2,11 +2,16 @@
 type: Claim
 title: bodhi最自然的窄切入是自身建设
 description: 如果非要说窄切入，把 bodhi 用于 bodhi 自身的建设是最自然的一种；围绕 bodhi 的反馈与叙事本身即 bodhi works 的证明。
-source_refs: [source-003]
+sources:
+  - id: source-003
+    resource: /sources/full_text-20260713.txt
+    title: Bodhi Thesis
+    author: luyao
+    last_modified: 2026-07-13
 chapter_refs: []
 tags: [claim, thesis, strategy]
-status: active
-timestamp: 2026-07-13T00:00:00Z
+status: stable
+generated: { by: cursor/claude-opus-4, at: 2026-07-13T00:00:00Z }
 ---
 
 # bodhi最自然的窄切入是自身建设
@@ -30,6 +35,6 @@ timestamp: 2026-07-13T00:00:00Z
 
 ## 关联概念
 
-- [反预判策略](../concepts/反预判策略.md)
-- [代币现实反馈回路](../concepts/代币现实反馈回路.md)
-- [Bodhi产品叙事框架](../frameworks/Bodhi产品叙事框架.md)
+- [反预判策略](/concepts/反预判策略.md)
+- [代币现实反馈回路](/concepts/代币现实反馈回路.md)
+- [Bodhi产品叙事框架](/frameworks/Bodhi产品叙事框架.md)

@@ -2,11 +2,15 @@
 type: Claim
 title: 行动内容进入Funding合约
 description: Action 内容存储在 Arweave，Arweave ID 被存入 Funding 合约，资金可被贡献者 claim。
-source_refs: [source-001]
+sources:
+  - id: source-001
+    resource: /sources/full_text-20260630.txt
+    title: Bodhi Docs
+    last_modified: 2026-06-30
 chapter_refs: [ch02]
 tags: [claim, bodhi]
-status: active
-timestamp: 2026-06-30T09:30:00Z
+status: stable
+generated: { by: cursor/claude-opus-4, at: 2026-06-30T09:30:00Z }
 ---
 
 # 行动内容进入Funding合约
@@ -29,4 +33,4 @@ Action 内容存储在 Arweave，Arweave ID 被存入 Funding 合约，资金可
 
 ## 关联概念
 
-- [行动与给币](../concepts/行动与给币.md)
+- [行动与给币](/concepts/行动与给币.md)

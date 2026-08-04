@@ -2,11 +2,21 @@
 type: Framework
 title: Bodhi产品叙事框架
 description: 把 thesis 的核心命题、价值态度和方法论组织成可复用的项目决策底座。
-source_refs: [source-003]
+sources:
+  - id: source-003
+    resource: /sources/full_text-20260713.txt
+    title: Bodhi Thesis
+    author: luyao
+    last_modified: 2026-07-13
+  - id: source-007
+    resource: /sources/full_text-20260805.txt
+    title: luyao：Bodhi 新版 UI 的设计说明（2026-08-05）
+    author: luyao
+    last_modified: 2026-08-05
 chapter_refs: []
 tags: [framework, thesis, strategy]
-status: active
-timestamp: 2026-07-13T00:00:00Z
+status: stable
+generated: { by: cursor/claude-opus-4, at: 2026-07-13T00:00:00Z }
 ---
 
 # Bodhi产品叙事框架
@@ -16,10 +26,10 @@ timestamp: 2026-07-13T00:00:00Z
 把创始人 thesis 的几条线索组织成一个决策底座，用来判断“某个产品/技术决策是否符合 Bodhi 的叙事”：
 
 1. **核心命题** — 我们都不知道什么东西最适合 bodhi，答案很可能跟我们想的不一样。
-2. **策略推导** — 不预判最优场景再发力，而是往前走再感受（[反预判策略](../concepts/反预判策略.md)）。
-3. **价值底座** — 正方形哲学：接受项目气质，不做与气质冲突的事（[正方形哲学](../concepts/正方形哲学.md)）。
-4. **方法论** — 体验优于逻辑：做被体验的空间，不做被理解的文章（[体验优于逻辑](../concepts/体验优于逻辑.md)）。
-5. **产品取向** — 热闹大于整齐：保持好逛、易发现（[热闹大于整齐](../concepts/热闹大于整齐.md)）。
+2. **策略推导** — 不预判最优场景再发力，而是往前走再感受（[反预判策略](/concepts/反预判策略.md)）。
+3. **价值底座** — 正方形哲学：接受项目气质，不做与气质冲突的事（[正方形哲学](/concepts/正方形哲学.md)）。
+4. **方法论** — 体验优于逻辑：做被体验的空间，不做被理解的文章（[体验优于逻辑](/concepts/体验优于逻辑.md)）。
+5. **产品取向** — 热闹大于整齐：保持好逛、易发现（[热闹大于整齐](/concepts/热闹大于整齐.md)）。新版 UI 把这一取向落在事件柱状图、列表微型图与个人页语境化上（见 [UI操作可见性框架](/frameworks/UI操作可见性框架.md)，source-007）。
 6. **自然窄切入** — 如非要窄切入，把 bodhi 用于 bodhi 自身建设是最自然的一种。
 
 ## 使用场景
@@ -40,7 +50,7 @@ timestamp: 2026-07-13T00:00:00Z
 
 ## 关联概念
 
-- [反预判策略](../concepts/反预判策略.md)
-- [正方形哲学](../concepts/正方形哲学.md)
-- [体验优于逻辑](../concepts/体验优于逻辑.md)
-- [热闹大于整齐](../concepts/热闹大于整齐.md)
+- [反预判策略](/concepts/反预判策略.md)
+- [正方形哲学](/concepts/正方形哲学.md)
+- [体验优于逻辑](/concepts/体验优于逻辑.md)
+- [热闹大于整齐](/concepts/热闹大于整齐.md)

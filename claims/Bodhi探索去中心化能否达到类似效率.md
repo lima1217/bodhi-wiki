@@ -2,11 +2,16 @@
 type: Claim
 title: Bodhi探索去中心化能否达到类似效率
 description: 创始人主张：Bodhi 的核心是验证——借助 crypto 能否不依赖中心化的领导者/决策结构，却达到与“成本最优分工”类似、甚至更高的协作效率；目前只有直觉，没有证据。
-source_refs: [source-006]
+sources:
+  - id: source-006
+    resource: /sources/full_text-20260721.txt
+    title: luyao 随想（Cursor 多智能体实验与 Bodhi 去中心化效率命题）
+    author: luyao
+    last_modified: 2026-07-21
 chapter_refs: []
 tags: [claim, bodhi, coordination, decentralization, thesis]
-status: active
-timestamp: 2026-07-21T00:00:00Z
+status: stable
+generated: { by: cursor/claude-opus-4, at: 2026-07-21T00:00:00Z }
 ---
 
 # Bodhi探索去中心化能否达到类似效率
@@ -27,16 +32,16 @@ timestamp: 2026-07-21T00:00:00Z
 
 ## 假设与不确定性
 
-这是一条**命题/赌注**，证据状态明确为空（创始人自述“还没有任何证据……直觉它是可以的”）。它不证明去中心化一定更优，不预设 crypto 是唯一路径，也不给出达成条件。引用时表述为“Bodhi 想验证的问题 / 创始人的直觉”，而非“已被证明的结论”。是否成立需要真实采用数据与对照，列入 [待解决问题](../questions/待解决问题.md)。
+这是一条**命题/赌注**，证据状态明确为空（创始人自述“还没有任何证据……直觉它是可以的”）。它不证明去中心化一定更优，不预设 crypto 是唯一路径，也不给出达成条件。引用时表述为“Bodhi 想验证的问题 / 创始人的直觉”，而非“已被证明的结论”。是否成立需要真实采用数据与对照，列入 [待解决问题](/questions/待解决问题.md)。
 
 ## 关联概念
 
-- [去中心化效率命题](../concepts/去中心化效率命题.md)
-- [领导者与执行者分工](../concepts/领导者与执行者分工.md)
-- [无市长城市](../concepts/无市长城市.md)
-- [代币即无工资公司](../concepts/代币即无工资公司.md)
+- [去中心化效率命题](/concepts/去中心化效率命题.md)
+- [领导者与执行者分工](/concepts/领导者与执行者分工.md)
+- [无市长城市](/concepts/无市长城市.md)
+- [代币即无工资公司](/concepts/代币即无工资公司.md)
 
 ## 关联框架
 
-- [协作结构张力框架](../frameworks/协作结构张力框架.md)
-- [Bodhi产品叙事框架](../frameworks/Bodhi产品叙事框架.md)
+- [协作结构张力框架](/frameworks/协作结构张力框架.md)
+- [Bodhi产品叙事框架](/frameworks/Bodhi产品叙事框架.md)

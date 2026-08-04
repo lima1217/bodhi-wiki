@@ -2,11 +2,15 @@
 type: Claim
 title: Virtual Foundation 是 v0 机制
 description: 每个代币带内置金库、持币者投票决定是否拿固定数量代币奖励贡献者，是早于任务/悬赏版本的机制，后被换掉。
-source_refs: [source-004]
+sources:
+  - id: source-004
+    resource: /sources/full_text-20260713-2.txt
+    title: Bodhi 创建者回答用户提问（2026-07-13）
+    last_modified: 2026-07-13
 chapter_refs: [ch02]
 tags: [claim, bodhi]
-status: active
-timestamp: 2026-07-13T00:00:00Z
+status: stable
+generated: { by: cursor/claude-opus-4, at: 2026-07-13T00:00:00Z }
 ---
 
 # Virtual Foundation 是 v0 机制
@@ -17,7 +21,7 @@ timestamp: 2026-07-13T00:00:00Z
 
 ## 支撑
 
-这条主张澄清了 [机制简化演进框架](../frameworks/机制简化演进框架.md) 的演进顺序：Virtual Foundation（v0，金库+投票）→ 任务/悬赏（v1 内测）→ 当前 v2（Post + 给币）。它直接回应了用户关于“代币价值流动权利是否应留在协议而非持币人手里”的提问——用户描述的“留在协议里的金库”正是 v0 的做法。
+这条主张澄清了 [机制简化演进框架](/frameworks/机制简化演进框架.md) 的演进顺序：Virtual Foundation（v0，金库+投票）→ 任务/悬赏（v1 内测）→ 当前 v2（Post + 给币）。它直接回应了用户关于“代币价值流动权利是否应留在协议而非持币人手里”的提问——用户描述的“留在协议里的金库”正是 v0 的做法。
 
 ## 证据
 
@@ -30,9 +34,9 @@ timestamp: 2026-07-13T00:00:00Z
 
 ## 关联概念
 
-- [小型贡献市场](../concepts/小型贡献市场.md)
-- [给钱与给币的激励差异](../concepts/给钱与给币的激励差异.md)
+- [小型贡献市场](/concepts/小型贡献市场.md)
+- [给钱与给币的激励差异](/concepts/给钱与给币的激励差异.md)
 
 ## 关联框架
 
-- [机制简化演进框架](../frameworks/机制简化演进框架.md)
+- [机制简化演进框架](/frameworks/机制简化演进框架.md)

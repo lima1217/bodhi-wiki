@@ -2,11 +2,38 @@
 type: AgentGuide
 title: Bodhi Wiki
 description: 仓库说明：如何把这个 OKF LLM Wiki 喂给 AI agent 作为背景知识。
-source_refs: [source-001, source-002, source-003, source-004, source-005, source-006]
+sources:
+  - id: source-001
+    resource: /sources/full_text-20260630.txt
+    title: Bodhi Docs
+    last_modified: 2026-06-30
+  - id: source-002
+    resource: /sources/full_text-20260630-2.txt
+    title: 一座没有市长的城市
+    last_modified: 2026-06-30
+  - id: source-003
+    resource: /sources/full_text-20260713.txt
+    title: Bodhi Thesis
+    author: luyao
+    last_modified: 2026-07-13
+  - id: source-004
+    resource: /sources/full_text-20260713-2.txt
+    title: Bodhi 创建者回答用户提问（2026-07-13）
+    last_modified: 2026-07-13
+  - id: source-005
+    resource: /sources/full_text-20260713-3.txt
+    title: luyao 回答用户提问（发项目是否等于发币）
+    author: luyao
+    last_modified: 2026-07-13
+  - id: source-006
+    resource: /sources/full_text-20260721.txt
+    title: luyao 随想（Cursor 多智能体实验与 Bodhi 去中心化效率命题）
+    author: luyao
+    last_modified: 2026-07-21
 chapter_refs: []
 tags: [readme, repo]
-status: active
-timestamp: 2026-07-13T00:00:00Z
+status: stable
+generated: { by: cursor/claude-opus-4, at: 2026-07-13T00:00:00Z }
 ---
 
 # Bodhi Wiki

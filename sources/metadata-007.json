@@ -1,0 +1,40 @@
+{
+  "source_file": "luyao Bodhi 新版 UI 的设计说明.md",
+  "filename": "luyao Bodhi 新版 UI 的设计说明.md",
+  "format": "md",
+  "extraction_method": "plain-text",
+  "extraction_mode": "text",
+  "file_size_mb": 0.0,
+  "pages": 0,
+  "chars": 1200,
+  "words": 480,
+  "estimated_tokens": 720,
+  "estimated_tokens_human": "~1K",
+  "output_text": "sources/full_text-20260805.txt",
+  "total_sources": 1,
+  "written_into_package": true,
+  "full_text_file": "full_text-20260805.txt",
+  "full_text_md5": "b554aee1ff4f59a82dcff12b0e3b44dd",
+  "full_text_lines": 19,
+  "sources": [
+    {
+      "source_file": "luyao Bodhi 新版 UI 的设计说明.md",
+      "filename": "luyao Bodhi 新版 UI 的设计说明.md",
+      "format": "md",
+      "extraction_method": "plain-text",
+      "file_size_mb": 0.0,
+      "pages": 0,
+      "pages_label": "sections",
+      "chars": 1200,
+      "words": 480,
+      "estimated_tokens": 720,
+      "chapters_detected": 0,
+      "has_toc": false,
+      "chapter_map": []
+    }
+  ],
+  "chapters_detected": 0,
+  "chapter_headings_sample": [],
+  "has_toc": false,
+  "chapter_map": []
+}

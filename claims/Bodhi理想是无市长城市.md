@@ -2,11 +2,15 @@
 type: Claim
 title: Bodhi理想是无市长城市
 description: 补充材料明确把 Bodhi 的理想表述为“没有市长、却运转得和有市长一样好的城市”。
-source_refs: [source-002]
+sources:
+  - id: source-002
+    resource: /sources/full_text-20260630-2.txt
+    title: 一座没有市长的城市
+    last_modified: 2026-06-30
 chapter_refs: [ch05]
 tags: [claim, politics]
-status: active
-timestamp: 2026-06-30T10:10:00Z
+status: stable
+generated: { by: cursor/claude-opus-4, at: 2026-06-30T10:10:00Z }
 ---
 
 # Bodhi理想是无市长城市
@@ -29,5 +33,5 @@ Bodhi 的理想可以被表述为“一个没有市长、却运转得和有市�
 
 ## 关联概念
 
-- [无市长城市](../concepts/无市长城市.md)
-- [政治性组织框架](../frameworks/政治性组织框架.md)
+- [无市长城市](/concepts/无市长城市.md)
+- [政治性组织框架](/frameworks/政治性组织框架.md)

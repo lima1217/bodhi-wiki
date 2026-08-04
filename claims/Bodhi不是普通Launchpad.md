@@ -2,11 +2,15 @@
 type: Claim
 title: Bodhi不是普通Launchpad
 description: Bodhi 不只负责发行、炒作和交易，而是试图通过行动和给币把代币接回现实贡献。
-source_refs: [source-001]
+sources:
+  - id: source-001
+    resource: /sources/full_text-20260630.txt
+    title: Bodhi Docs
+    last_modified: 2026-06-30
 chapter_refs: [ch02]
 tags: [claim, bodhi]
-status: active
-timestamp: 2026-06-30T09:30:00Z
+status: stable
+generated: { by: cursor/claude-opus-4, at: 2026-06-30T09:30:00Z }
 ---
 
 # Bodhi不是普通Launchpad
@@ -29,4 +33,4 @@ Bodhi 不只负责发行、炒作和交易，而是试图通过行动和给币�
 
 ## 关联概念
 
-- [代币现实反馈回路](../concepts/代币现实反馈回路.md)
+- [代币现实反馈回路](/concepts/代币现实反馈回路.md)

@@ -1,5 +1,20 @@
 # 更新日志
 
+## 2026-08-05（v0.2 全包迁移）
+
+- 对全包做 OKF v0.2 sweep，彻底清除 v0.1 残留字段：86 个页面的 `source_refs` + `timestamp` + `status: active` 迁移为 v0.2 的 `sources` 列表（带 `id`/`resource`/`title`/`author`/`last_modified`）、`generated: { by, at }` 与 `status: stable`。
+- 链接全部 `/`-rooted 化：75 处 `../` 相对链接、跨目录 `.md`/`.txt`/`.json` 引用，以及裸目录链接（`concepts/` 等）统一改为从包根解析的绝对路径，使每条引用可全局 grep。
+- 根 `index.md` 补 v0.2 必需的 `okf_version: "0.2"`；`tools/validate_okf_wiki.py` 用 skill 最新版覆盖。
+- 校验：非严格与 strict 模式均通过，零 v0.1 警告；strict 唯一 advisory 是 README.md 为孤儿页（既存情况，无页面链接到它），不影响通过。
+
+## 2026-08-05
+
+- 摄取 luyao 帖子为 `source-007`（固定文本 `full_text-20260805.txt`，19 行，md5 `b554aee1ff4f59a82dcff12b0e3b44dd`）。议题：新版 UI 设计思路——事件柱状图呈现代币“活跃度”、四种操作（买/卖/发/给）的能量系统隐喻、核心操作在界面上更显眼以缩短新人理解路径。与 source-003（产品叙事方法论）互补：source-003 讲价值取向，本源讲这些取向如何在 UI 落地。
+- 新增 3 个概念（四种核心操作、代币能量系统隐喻、代币活跃度指标）、1 个框架（UI操作可见性框架）、2 个主张（价格图表反映不了代币活跃度、做事做功决定系统是电池还是有机体）。
+- 补强 3 个已有页：热闹大于整齐（UI 落地证据）、行动与给币（给币被 UI 显著呈现）、Bodhi 产品叙事框架（产品取向的 UI 落地）。
+- glossary 增 4 条术语（四种核心操作、代币能量系统隐喻、代币活跃度指标、事件柱状图）；questions 新增“产品 UI”组；AGENTS.md、index.md 与各目录 index/log 同步指向 source-007。
+- 注意：本次固定文本与 metadata 手写（未运行 extractor），未触碰根 `metadata.json` 与 `full_text.txt`，二者仍为 source-001 状态。
+
 ## 2026-07-21
 
 - 摄取创始人手写片段为 `source-006`（固定文本 `full_text-20260721.txt`，23 行，md5 `38eef2d6bca17ec9bf57a48bc54972f3`）。议题：借 Cursor 多智能体实验（昂贵领导者+便宜执行者的成本最优分工）点出 Bodhi 总命题——crypto 能否不依赖中心化达到类似甚至更高效。
