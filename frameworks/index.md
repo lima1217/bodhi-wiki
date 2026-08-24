@@ -10,3 +10,4 @@
 - [责任形态演进框架](/frameworks/责任形态演进框架.md)（source-005）
 - [协作结构张力框架](/frameworks/协作结构张力框架.md)（source-006）
 - [UI操作可见性框架](/frameworks/UI操作可见性框架.md)（source-007）
+- [代币生长顺序框架](/frameworks/代币生长顺序框架.md)（source-008）

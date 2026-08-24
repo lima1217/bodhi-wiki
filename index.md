@@ -9,10 +9,10 @@ Bodhi v2 是一个把“想法发行成代币，并让代币通过行动和给�
 
 ## 来源与范围
 
-- 来源：[Bodhi Docs](https://bodhi.wtf/docs)，本地来源说明见 [sources/来源-001.md](/sources/来源-001.md)；补充材料“一座没有市长的城市”见 [sources/来源-002.md](/sources/来源-002.md)；创始人项目级叙事“Bodhi Thesis”见 [sources/来源-003.md](/sources/来源-003.md)；创建者回答用户提问见 [sources/来源-004.md](/sources/来源-004.md)；luyao 回答“发项目是否等于发币”见 [sources/来源-005.md](/sources/来源-005.md)；luyao 关于 Cursor 多智能体实验与 Bodhi 去中心化效率命题的随想见 [sources/来源-006.md](/sources/来源-006.md)；luyao 的新版 UI 设计说明见 [sources/来源-007.md](/sources/来源-007.md)。
-- 固定文本：`sources/full_text-20260630.txt`，共 140 行，md5 `dad18ee51aff05143e36c288548893ef`；`sources/full_text-20260630-2.txt`，共 25 行，md5 `c38a2511171ec1a2f06ee7e3f8ac69b8`；`sources/full_text-20260713.txt`，共 106 行，md5 `aac8935b8edf37a5f617a9986e54919f`；`sources/full_text-20260713-2.txt`，共 61 行，md5 `34a509f57b6402de965618e810c6bf1c`；`sources/full_text-20260713-3.txt`，共 41 行，md5 `55101c8976366e02452a2f4adcc617d3`；`sources/full_text-20260721.txt`，共 23 行，md5 `38eef2d6bca17ec9bf57a48bc54972f3`；`sources/full_text-20260805.txt`，共 19 行，md5 `b554aee1ff4f59a82dcff12b0e3b44dd`。
-- 范围：概览、代币生命周期、行动和给币、小发明、FAQ、城市代币与“没有市长的城市”、创始人叙事与产品方法论（source-003）、机制演进史与设计动机（source-004）、发币监管边界与责任形态演进（source-005）、协作结构与去中心化效率命题（source-006）、新版 UI 设计思路与操作可见性（source-007）。
-- 不包含：合约源码逐行审计、链上实时状态、外部数据验证、法律意见、source-003 / source-004 / source-005 / source-006 中个人回忆、状态判断与外部转述（如 Cursor 实验数据）的事实核验，以及 source-007 中 UI 效果的主观判断与实际可用性验证。
+- 来源：[Bodhi Docs](https://bodhi.wtf/docs)，本地来源说明见 [sources/来源-001.md](/sources/来源-001.md)；补充材料“一座没有市长的城市”见 [sources/来源-002.md](/sources/来源-002.md)；创始人项目级叙事“Bodhi Thesis”见 [sources/来源-003.md](/sources/来源-003.md)；创建者回答用户提问见 [sources/来源-004.md](/sources/来源-004.md)；luyao 回答“发项目是否等于发币”见 [sources/来源-005.md](/sources/来源-005.md)；luyao 关于 Cursor 多智能体实验与 Bodhi 去中心化效率命题的随想见 [sources/来源-006.md](/sources/来源-006.md)；luyao 的新版 UI 设计说明见 [sources/来源-007.md](/sources/来源-007.md)；luyao 关于菩提的三个小感悟见 [sources/来源-008.md](/sources/来源-008.md)。
+- 固定文本：`sources/full_text-20260630.txt`，共 140 行，md5 `dad18ee51aff05143e36c288548893ef`；`sources/full_text-20260630-2.txt`，共 25 行，md5 `c38a2511171ec1a2f06ee7e3f8ac69b8`；`sources/full_text-20260713.txt`，共 106 行，md5 `aac8935b8edf37a5f617a9986e54919f`；`sources/full_text-20260713-2.txt`，共 61 行，md5 `34a509f57b6402de965618e810c6bf1c`；`sources/full_text-20260713-3.txt`，共 41 行，md5 `55101c8976366e02452a2f4adcc617d3`；`sources/full_text-20260721.txt`，共 23 行，md5 `38eef2d6bca17ec9bf57a48bc54972f3`；`sources/full_text-20260805.txt`，共 19 行，md5 `b554aee1ff4f59a82dcff12b0e3b44dd`；`sources/full_text-20260824.txt`，共 20 行，md5 `fcc11f611731954d1bcbae6cea0e98e8`。
+- 范围：概览、代币生命周期、行动和给币、小发明、FAQ、城市代币与“没有市长的城市”、创始人叙事与产品方法论（source-003）、机制演进史与设计动机（source-004）、发币监管边界与责任形态演进（source-005）、协作结构与去中心化效率命题（source-006）、新版 UI 设计思路与操作可见性（source-007）、代币生长顺序与土壤论（source-008）。
+- 不包含：合约源码逐行审计、链上实时状态、外部数据验证、法律意见、source-003 / source-004 / source-005 / source-006 中个人回忆、状态判断与外部转述（如 Cursor 实验数据）的事实核验，source-007 中 UI 效果的主观判断与实际可用性验证，以及 source-008 中 GameFi 案例细节、生长顺序归纳与阶段策略陈述的事实核验。
 
 ## 人类阅读路径
 
@@ -25,6 +25,7 @@ Bodhi v2 是一个把“想法发行成代币，并让代币通过行动和给�
 7. 想理解“发项目算不算发币 / 创建者还要不要负责”读 [责任形态演进框架](/frameworks/责任形态演进框架.md)（source-005）。
 8. 想理解“Bodhi 到底在赌什么 / 为什么去中心化”读 [协作结构张力框架](/frameworks/协作结构张力框架.md)（source-006）。
 9. 想理解“UI 为什么这样设计 / 代币上的四种操作”读 [UI操作可见性框架](/frameworks/UI操作可见性框架.md) 和它的概念页（source-007）。
+10. 想理解“代币怎么从零长出来 / 为什么不怕没投机者”读 [代币生长顺序框架](/frameworks/代币生长顺序框架.md) 和它的概念页（source-008）。
 
 ## 代理上下文路径
 
@@ -61,6 +62,9 @@ Bodhi v2 是一个把“想法发行成代币，并让代币通过行动和给�
 - [四种核心操作](/concepts/四种核心操作.md)（source-007）
 - [代币能量系统隐喻](/concepts/代币能量系统隐喻.md)（source-007）
 - [代币活跃度指标](/concepts/代币活跃度指标.md)（source-007）
+- [闲聊是土壤](/concepts/闲聊是土壤.md)（source-008）
+- [代币即频道](/concepts/代币即频道.md)（source-008）
+- [兴趣指南针](/concepts/兴趣指南针.md)（source-008）
 
 ## 顶层框架
 
@@ -74,6 +78,7 @@ Bodhi v2 是一个把“想法发行成代币，并让代币通过行动和给�
 - [责任形态演进框架](/frameworks/责任形态演进框架.md)（source-005）
 - [协作结构张力框架](/frameworks/协作结构张力框架.md)（source-006）
 - [UI操作可见性框架](/frameworks/UI操作可见性框架.md)（source-007）
+- [代币生长顺序框架](/frameworks/代币生长顺序框架.md)（source-008）
 
 ## 目录
 

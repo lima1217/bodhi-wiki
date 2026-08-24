@@ -13,6 +13,11 @@ sources:
     title: luyao：Bodhi 新版 UI 的设计说明（2026-08-05）
     author: luyao
     last_modified: 2026-08-05
+  - id: source-008
+    resource: /sources/full_text-20260824.txt
+    title: luyao：关于菩提的三个小小的新的感悟（2026-08-24）
+    author: luyao
+    last_modified: 2026-08-24
 chapter_refs: []
 tags: [framework, thesis, strategy]
 status: stable
@@ -29,8 +34,9 @@ generated: { by: cursor/claude-opus-4, at: 2026-07-13T00:00:00Z }
 2. **策略推导** — 不预判最优场景再发力，而是往前走再感受（[反预判策略](/concepts/反预判策略.md)）。
 3. **价值底座** — 正方形哲学：接受项目气质，不做与气质冲突的事（[正方形哲学](/concepts/正方形哲学.md)）。
 4. **方法论** — 体验优于逻辑：做被体验的空间，不做被理解的文章（[体验优于逻辑](/concepts/体验优于逻辑.md)）。
-5. **产品取向** — 热闹大于整齐：保持好逛、易发现（[热闹大于整齐](/concepts/热闹大于整齐.md)）。新版 UI 把这一取向落在事件柱状图、列表微型图与个人页语境化上（见 [UI操作可见性框架](/frameworks/UI操作可见性框架.md)，source-007）。
+5. **产品取向** — 热闹大于整齐：保持好逛、易发现（[热闹大于整齐](/concepts/热闹大于整齐.md)）。新版 UI 把这一取向落在事件柱状图、列表微型图与个人页语境化上（见 [UI操作可见性框架](/frameworks/UI操作可见性框架.md)，source-007）。source-008 进一步把热闹追到生长机制：闲聊是土壤，土壤在人待在一起的空间里（[闲聊是土壤](/concepts/闲聊是土壤.md)）。
 6. **自然窄切入** — 如非要窄切入，把 bodhi 用于 bodhi 自身建设是最自然的一种。
+7. **阶段策略** — 眼下这个阶段挺好，做好这个阶段该做的事，让已经在这里的人觉得它越来越好用，别的都是以后的事（source-008）；筛选层的配套方法是兴趣指南针，不按规模预判价值（[兴趣指南针](/concepts/兴趣指南针.md)）。
 
 ## 使用场景
 
@@ -42,6 +48,7 @@ generated: { by: cursor/claude-opus-4, at: 2026-07-13T00:00:00Z }
 
 - 核心命题：`sources/full_text-20260713.txt:12-16`
 - 窄切入：`sources/full_text-20260713.txt:84-87`
+- 阶段策略：`sources/full_text-20260824.txt:20`
 - 各态度出处见其各自概念页。
 
 ## 注意
@@ -54,3 +61,6 @@ generated: { by: cursor/claude-opus-4, at: 2026-07-13T00:00:00Z }
 - [正方形哲学](/concepts/正方形哲学.md)
 - [体验优于逻辑](/concepts/体验优于逻辑.md)
 - [热闹大于整齐](/concepts/热闹大于整齐.md)
+- [闲聊是土壤](/concepts/闲聊是土壤.md)
+- [兴趣指南针](/concepts/兴趣指南针.md)
+- [代币生长顺序框架](/frameworks/代币生长顺序框架.md)

@@ -1,5 +1,13 @@
 # 更新日志
 
+## 2026-08-24
+
+- 摄取 luyao 帖子为 `source-008`（固定文本 `full_text-20260824.txt`，20 行，md5 `fcc11f611731954d1bcbae6cea0e98e8`）。议题：代币生长顺序反转——不是买卖长出建设，而是闲聊、关系里长出建设，代币最后才拿到意义，投机在链末尾，土壤是人待在一起的空间；代币被当频道用是种子形态；Paul Graham 兴趣指南针移植到代币筛选。与 source-003（不预判最优场景）互补：source-003 讲方法论，本源给出观察到的实际生长顺序。
+- 新增 3 个概念（闲聊是土壤、代币即频道、兴趣指南针）、1 个框架（代币生长顺序框架）、2 个主张（不是买卖长出建设而是闲聊长出建设、代币被当频道用是种子形态）。
+- 补强 3 个既有页：热闹大于整齐（土壤论把热闹推进到生长机制层）、反预判策略（兴趣指南针是其筛选层具体化）、群体基础与时机（频道是群体基础的种子阶段）；Bodhi 产品叙事框架新增“阶段策略”条目。
+- glossary 增 4 条术语（闲聊是土壤、代币即频道/种子形态、兴趣指南针、GameFi 代币案例）并给 pump.fun 词条补对照证据；questions 新增“代币生长与土壤”组；README 补登 source-007 并同步 source-008；AGENTS.md、index.md 与各目录 index/log 同步指向 source-008。
+- 注意：本次固定文本与 metadata 手写（未运行 extractor），未触碰根 `metadata.json` 与 `full_text.txt`，二者仍为 source-001 状态。
+
 ## 2026-08-05（v0.2 全包迁移）
 
 - 对全包做 OKF v0.2 sweep，彻底清除 v0.1 残留字段：86 个页面的 `source_refs` + `timestamp` + `status: active` 迁移为 v0.2 的 `sources` 列表（带 `id`/`resource`/`title`/`author`/`last_modified`）、`generated: { by, at }` 与 `status: stable`。

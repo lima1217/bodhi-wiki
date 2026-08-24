@@ -1,5 +1,8 @@
 # 来源日志
 
+## 2026-08-24
+
+- 摄取 luyao 帖子为 `source-008`，固定文本 `full_text-20260824.txt`（20 行，md5 `fcc11f611731954d1bcbae6cea0e98e8`），新增 `metadata-008.json` 与 `来源-008.md`。议题：代币生长顺序反转（不是买卖长出建设，而是闲聊长出建设、投机在链末尾，土壤是人待在一起的空间）、代币被当频道用是种子形态、Paul Graham 兴趣指南针移植。与 source-003（不预判最优场景）互补：source-003 讲方法论，本源给出观察到的实际生长顺序。未运行 extractor，固定文本与元数据手写，未触碰根 `metadata.json` 与 `full_text.txt`。
 ## 2026-08-05
 
 - 摄取 luyao 帖子为 `source-007`，固定文本 `full_text-20260805.txt`（19 行，md5 `b554aee1ff4f59a82dcff12b0e3b44dd`），新增 `metadata-007.json` 与 `来源-007.md`。议题：新版 UI 设计思路——事件柱状图呈现代币“活跃度”、四种操作（买/卖/发/给）的能量系统隐喻、核心操作在界面上更显眼以缩短新人理解路径。与 source-003（产品叙事方法论）互补：source-003 讲价值取向，本源讲这些取向如何在 UI 落地。未运行 extractor，固定文本与元数据手写，未触碰根 `metadata.json` 与 `full_text.txt`。

@@ -30,10 +30,20 @@ sources:
     title: luyao 随想（Cursor 多智能体实验与 Bodhi 去中心化效率命题）
     author: luyao
     last_modified: 2026-07-21
+  - id: source-007
+    resource: /sources/full_text-20260805.txt
+    title: luyao：Bodhi 新版 UI 的设计说明（2026-08-05）
+    author: luyao
+    last_modified: 2026-08-05
+  - id: source-008
+    resource: /sources/full_text-20260824.txt
+    title: luyao：关于菩提的三个小小的新的感悟（2026-08-24）
+    author: luyao
+    last_modified: 2026-08-24
 chapter_refs: []
 tags: [readme, repo]
 status: stable
-generated: { by: cursor/claude-opus-4, at: 2026-07-13T00:00:00Z }
+generated: { by: cursor/claude-opus-4, at: 2026-08-24T00:00:00Z }
 ---
 
 # Bodhi Wiki
@@ -52,6 +62,8 @@ Bodhi 项目的自包含中文知识包。把仓库链接丢给 AI agent，让�
 - **source-004 创建者回答用户提问**：机制演进史（v0 金库投票 → v1 任务/悬赏 → v2 Post+给币）、两种盒子、为什么不内建验证
 - **source-005 luyao 回答：发项目是否等于发币**：监管边界、创建者与代币解绑、责任形态历史类比
 - **source-006 luyao 随想：Cursor 多智能体实验**：中心化成本最优分工 ↔ Bodhi 去中心化效率命题
+- **source-007 luyao 新版 UI 设计说明**：事件柱状图与代币活跃度、四种操作的能量系统隐喻、操作可见性
+- **source-008 luyao：关于菩提的三个小感悟**：闲聊是土壤、代币即频道（种子形态）、兴趣指南针
 
 ## 怎么用（重点）
 
@@ -110,4 +122,4 @@ python3 tools/validate_okf_wiki.py --strict .
 
 仓库数据定期更新，会随 Bodhi 文档和叙事的演进而补充来源与概念。如果 agent 缓存了旧版本，让它重新拉取最新内容再提问。
 
-本包不包含：合约源码逐行审计、链上实时状态、外部数据验证。`source-003` 中关于 v1 内容数量、pump.fun 时间线、wishpool 事件、VC 联络等属创始人回忆，引用时应标注“待核实”，不应作为已验证事实。`source-006` 中 Cursor 实验数据引自外部文章、未独立核验，去中心化效率命题目前只有直觉、没有证据。
+本包不包含：合约源码逐行审计、链上实时状态、外部数据验证。`source-003` 中关于 v1 内容数量、pump.fun 时间线、wishpool 事件、VC 联络等属创始人回忆，引用时应标注“待核实”，不应作为已验证事实。`source-006` 中 Cursor 实验数据引自外部文章、未独立核验，去中心化效率命题目前只有直觉、没有证据。`source-007` 中 UI 效果判断待真实使用验证。`source-008` 中 GameFi 案例细节、生长顺序归纳与阶段策略属创始人陈述/价值判断，待核实。

@@ -25,3 +25,6 @@
 - [四种核心操作](/concepts/四种核心操作.md)（source-007）
 - [代币能量系统隐喻](/concepts/代币能量系统隐喻.md)（source-007）
 - [代币活跃度指标](/concepts/代币活跃度指标.md)（source-007）
+- [闲聊是土壤](/concepts/闲聊是土壤.md)（source-008）
+- [代币即频道](/concepts/代币即频道.md)（source-008）
+- [兴趣指南针](/concepts/兴趣指南针.md)（source-008）
